@@ -1,0 +1,27 @@
+****************** Welcome to THC-HACKER (docker) *******************************
+
+Some tools have been obmitted for their size. You may want them:
+ # apt-get install exploitdb mexploitdb-bin-sploits
+ # apt-get install wordlists metasploit-framework 
+ # apt-get install oscanner patator
+ # git clone https://github.com/danielmiessler/SecLists.git /hax 
+
+ # apt-get install python3-pip python3-impacket
+ # pip3 install lsassy
+
+ # git clone --recursive https://github.com/byt3bl33d3r/CrackMapExec
+ # cd CrackMapExec ; python3 setup.py install
+
+Applications (need X11 forwarding):
+ # apt-get install xfreerdp
+
+Others:
+ - xfreerdp    - socat2
+ - burp
+
+We use 'bob' to execute most stuff:
+  # su - bob
+
+Tips & Tricks: https://tiny.cc/thctricks
+*********************************************************************************
+
