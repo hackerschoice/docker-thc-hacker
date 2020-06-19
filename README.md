@@ -7,6 +7,8 @@ Docker uses the overlay-fs. No data is written to the host's file system. A dock
 
 The host's ~/hax is mounted to /hax in order to quickly share data between the docker instance and the Host OS.
 
+**This Docker Instance comes pre-installed with our favourite hacking tools**
+
 THIS IS TOTALLY ALPHA FOR CLOSE FRIENDS ONLY. PLEASE LET ME KNOW WHAT TOOLS YOU LIKE ME TO ADD.
 
 Install:
