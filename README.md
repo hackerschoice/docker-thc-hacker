@@ -11,7 +11,7 @@ $ docker build -t thc-hacker docker-thc-hacker
 
 Run:
 ```
-$ docker run -it --name thc -v ~/hax:/hax thc-hacker
+$ docker run -it --name thc -v ~/hax:/hax --log-driver=none thc-hacker
 ```
 
 Run a second shell:
@@ -23,6 +23,13 @@ Attach back to an instance:
 ```
 $ docker start thc
 $ docker attach thc
+```
+
+Save the state of an instance and start it again where we stopped:
+```
+$ docker commit thc thc-hacker:have-a-break
+$ docker container rm thc
+$ docker run -it --name thc -v ~/hax:/hax --log-driver=none thc-hacker:have-a-break
 ```
 
 Delete the instance:
