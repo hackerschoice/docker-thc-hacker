@@ -32,6 +32,12 @@ $ docker container rm thc
 $ docker run -it --name thc -v ~/hax:/hax --log-driver=none thc-hacker:have-a-break
 ```
 
+Export an instance and import it (on another machine):
+```
+$ docker save thc | gzip >warez.gz
+$ docker load <warez.gz
+```
+
 Delete the instance:
 ```
 $ docker container rm thc
