@@ -1,6 +1,12 @@
 # docker-thc-hacker
 Docker environment for hackers
 
+Docker is like a Virtual Machine (but it aint!). It uses the 'Container' to isolate any activities from a docker instance from the Host OS.
+
+Docker uses the overlay-fs. No data is written to the host's file system. A docker instance always looks new when it is run again. It's perfect for hacking or executing untrusted binaries.   
+
+The host's ~/hax is mounted to /hax in order to quickly share data between the docker instance and the Host OS.
+
 THIS IS TOTALLY ALPHA FOR CLOSE FRIENDS ONLY. PLEASE LET ME KNOW WHAT TOOLS YOU LIKE ME TO ADD.
 
 Install:
