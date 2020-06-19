@@ -35,7 +35,11 @@ Delete the image:
 $ docker image rm thc-hacker
 ```
 
-There is so much information missing (for example how to run X11 applications). Let me know what else is missing.
+There is so much information missing (for example how to run X11 applications). Let me know what else is missing. I need help. Join me.
+
+TODO:
+- add TorGhost
+- Infos on X11 redirection (ssh dude...)
 
 
 
