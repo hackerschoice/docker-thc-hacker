@@ -19,8 +19,9 @@ $ docker build -t thc-hacker docker-thc-hacker
 
 Run:
 ```
-$ docker run -it --name thc -v ~/hax:/hax --log-driver=none thc-hacker
+$ docker run -it --rm --name thc -v ~/hax:/hax --log-driver=none thc-hacker
 ```
+(the ***--rm*** command will automatically remove the container on exit).
 
 Run a second shell:
 ```
